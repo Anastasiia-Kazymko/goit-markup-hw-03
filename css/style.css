@@ -22,8 +22,7 @@ body {
   padding-right: 15px;
   margin-right: auto;
   margin-left: auto;
-  outline: 2px solid red;
-}
+  }
 
 .list {
   list-style: none;
