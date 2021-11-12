@@ -49,10 +49,12 @@ a {
 }
 
 /********NAV*********/
+header {
+  border: 1px solid #ececec;
+}
 .nav {
   display: flex;
   align-items: center;
-  border: 1px solid #ececec;
 }
 .main-nav {
   display: flex;
@@ -136,6 +138,7 @@ a {
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 
   width: 696px;
   margin: 0 auto 30px;
@@ -283,8 +286,9 @@ img {
   text-decoration: none;
   font-style: normal;
 }
-.item-address {
-  margin-top: 20px;
+.logo-footer {
+  display: inline-block;
+  margin-bottom: 20px;
 }
 .footer-link {
   color: var(--color-footer-link);
